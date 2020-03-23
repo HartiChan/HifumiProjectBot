@@ -14,7 +14,19 @@
 
 
 class telegram_chatbot
-    def __init__(self, config):
-    
-    
+    def init(self, config)
+        token = 
+        base = "https://api.telegram.org/bot{}/".format(token)
+        masterID = 
+
+    end
+
+    def get_updates
+        @url = base + "getUpdates?timeut=10"
+        if offset
+            url = url + "&offset={}".format(token)
+        end
+        
+        
+    end
 end
